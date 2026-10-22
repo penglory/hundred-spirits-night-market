@@ -1,0 +1,25 @@
+# Reproducible print exports and release archives
+/output/
+/release/
+/tmp/
+/*.zip
+/成品图鉴.html
+
+# Unused generations and local OCR intermediates
+/assets/reference/
+/assets/illustrations/
+/assets/final/map_full.png
+/data/ocr-results.json
+/data/validation.json
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+Thumbs.db
+.DS_Store

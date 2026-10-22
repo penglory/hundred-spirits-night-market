@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "uniqueGeneratedImages": 154,
+  "pairedAndTilePNGs": 252,
+  "galleryDesigns": 118,
+  "reusedCardBacks": 13,
+  "identicalBackCopies": true,
+  "physicalCards": 140,
+  "physicalBanknotes": 134,
+  "pdfPages": {
+    "七种灵钱_双面印制.pdf": 90,
+    "全套A4印制合集.pdf": 164,
+    "全套卡牌_双面印制.pdf": 32,
+    "夜市地图_420毫米.pdf": 1,
+    "夜市地图_A4六页拼接.pdf": 6,
+    "完整内容图鉴.pdf": 7,
+    "规则手册.pdf": 4,
+    "辅助组件_裁切印制.pdf": 9
+  },
+  "mapPixels": {
+    "百妖夜市_12000像素放大版.png": [
+      12000,
+      12000
+    ],
+    "百妖夜市_完整地图.png": [
+      5016,
+      5016
+    ]
+  },
+  "scope": "文件完整性、PNG可读性、同类背面一致性、图鉴链接和PDF页数；不替代视觉校对或实桌平衡测试。"
+}

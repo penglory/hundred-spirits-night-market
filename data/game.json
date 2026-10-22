@@ -1,0 +1,1640 @@
+{
+  "version": "1.0.0-试玩版",
+  "title": "百妖夜市",
+  "currency": "灵钱",
+  "denominations": [
+    100,
+    200,
+    500,
+    1000,
+    2000,
+    5000,
+    10000
+  ],
+  "startingCash": 12000,
+  "startReward": 2000,
+  "recovery": 2400,
+  "handLimit": 4,
+  "rounds": {
+    "2": 24,
+    "3": 21,
+    "4": 18,
+    "5": 16,
+    "6": 14
+  },
+  "streets": [
+    {
+      "id": "S1",
+      "name": "狐香",
+      "theme": "香料脂粉",
+      "color": "#bd526f",
+      "names": [
+        "狐尾香坊",
+        "月下脂铺",
+        "凝露香阁",
+        "醉梦妆楼"
+      ],
+      "abilityName": "香风引客",
+      "ability": "每轮首次普通升级少付200灵钱，最低支付0。",
+      "art": "pink fox perfume vials, peonies, cosmetics, ornate vanity"
+    },
+    {
+      "id": "S2",
+      "name": "狸食",
+      "theme": "夜宵点心",
+      "color": "#c28a31",
+      "names": [
+        "狸火食摊",
+        "百味汤铺",
+        "酥月饼坊",
+        "饕餮宴楼"
+      ],
+      "abilityName": "食客盈门",
+      "ability": "每轮首次正常经过或停在开市门，额外领取400灵钱。",
+      "art": "amber tanuki chef, steaming bamboo baskets, mooncakes, soup"
+    },
+    {
+      "id": "S3",
+      "name": "纸月",
+      "theme": "纸艺灯彩",
+      "color": "#688d95",
+      "names": [
+        "纸鹤灯铺",
+        "剪月纸坊",
+        "千面伞阁",
+        "流萤灯楼"
+      ],
+      "abilityName": "纸鹤传书",
+      "ability": "每轮首次在百宝阁或百宝摊抽牌时，改为抽二留一。",
+      "art": "ivory origami cranes, paper lanterns, parasols, paper crafts"
+    },
+    {
+      "id": "S4",
+      "name": "蛛锦",
+      "theme": "丝绸织造",
+      "color": "#8960a3",
+      "names": [
+        "蛛丝绣坊",
+        "流霞染铺",
+        "织梦锦阁",
+        "天衣绸楼"
+      ],
+      "abilityName": "锦衣护市",
+      "ability": "每轮可取消一次施加在自己任意地产上的停业。",
+      "art": "violet spider silk loom, embroidery, rainbow silk bolts"
+    },
+    {
+      "id": "S5",
+      "name": "骨玉",
+      "theme": "玉器古玩",
+      "color": "#568477",
+      "names": [
+        "白骨玉坊",
+        "青磷古铺",
+        "琢月珍阁",
+        "玲珑宝楼"
+      ],
+      "abilityName": "玉润生财",
+      "ability": "回售地产时，土地回售价额外增加200灵钱；升级不加价。",
+      "art": "emerald jade rabbits, antiques, ivory bone spirit, precious vessels"
+    },
+    {
+      "id": "S6",
+      "name": "镜花",
+      "theme": "幻术戏艺",
+      "color": "#547ca9",
+      "names": [
+        "镜中花铺",
+        "幻影戏坊",
+        "浮生梦阁",
+        "蜃景戏楼"
+      ],
+      "abilityName": "镜转迷途",
+      "ability": "每轮一次，正常掷骰后可将步数加1或减1，最低为1。",
+      "art": "sapphire enchanted mirrors, opera masks, phantom stage, moon"
+    },
+    {
+      "id": "S7",
+      "name": "鬼酿",
+      "theme": "酒坊宴饮",
+      "color": "#a54e55",
+      "names": [
+        "鬼火酒坊",
+        "忘忧酿铺",
+        "醉魄香阁",
+        "浮月宴楼"
+      ],
+      "abilityName": "酒香招财",
+      "ability": "每轮首次从玩家实际收到租金后，另从银行领取400灵钱。",
+      "art": "crimson friendly ghost tavern, wine jars, plum blossom"
+    },
+    {
+      "id": "S8",
+      "name": "龙津",
+      "theme": "水运旅宿",
+      "color": "#398f97",
+      "names": [
+        "龙须渡口",
+        "听潮客栈",
+        "藏珠商馆",
+        "沧浪舟楼"
+      ],
+      "abilityName": "龙舟通商",
+      "ability": "每轮一次，经营阶段可按原价远程购买一处无主地产。",
+      "art": "turquoise gentle dragon, canal bridge, pearl lantern, boat"
+    }
+  ],
+  "properties": [
+    {
+      "id": "P01",
+      "name": "狐尾香坊",
+      "street": "S1",
+      "streetName": "狐香",
+      "price": 1000,
+      "upgrade": 600,
+      "rents": [
+        100,
+        200,
+        400
+      ],
+      "sale": 500,
+      "art": "pink fox perfume vials, peonies, cosmetics, ornate vanity"
+    },
+    {
+      "id": "P02",
+      "name": "月下脂铺",
+      "street": "S1",
+      "streetName": "狐香",
+      "price": 1200,
+      "upgrade": 600,
+      "rents": [
+        200,
+        400,
+        800
+      ],
+      "sale": 600,
+      "art": "pink fox perfume vials, peonies, cosmetics, ornate vanity"
+    },
+    {
+      "id": "P03",
+      "name": "凝露香阁",
+      "street": "S1",
+      "streetName": "狐香",
+      "price": 1400,
+      "upgrade": 600,
+      "rents": [
+        300,
+        600,
+        1200
+      ],
+      "sale": 700,
+      "art": "pink fox perfume vials, peonies, cosmetics, ornate vanity"
+    },
+    {
+      "id": "P04",
+      "name": "醉梦妆楼",
+      "street": "S1",
+      "streetName": "狐香",
+      "price": 1600,
+      "upgrade": 600,
+      "rents": [
+        400,
+        800,
+        1600
+      ],
+      "sale": 800,
+      "art": "pink fox perfume vials, peonies, cosmetics, ornate vanity"
+    },
+    {
+      "id": "P05",
+      "name": "狸火食摊",
+      "street": "S2",
+      "streetName": "狸食",
+      "price": 1400,
+      "upgrade": 800,
+      "rents": [
+        200,
+        400,
+        800
+      ],
+      "sale": 700,
+      "art": "amber tanuki chef, steaming bamboo baskets, mooncakes, soup"
+    },
+    {
+      "id": "P06",
+      "name": "百味汤铺",
+      "street": "S2",
+      "streetName": "狸食",
+      "price": 1600,
+      "upgrade": 800,
+      "rents": [
+        300,
+        600,
+        1200
+      ],
+      "sale": 800,
+      "art": "amber tanuki chef, steaming bamboo baskets, mooncakes, soup"
+    },
+    {
+      "id": "P07",
+      "name": "酥月饼坊",
+      "street": "S2",
+      "streetName": "狸食",
+      "price": 1800,
+      "upgrade": 800,
+      "rents": [
+        400,
+        800,
+        1600
+      ],
+      "sale": 900,
+      "art": "amber tanuki chef, steaming bamboo baskets, mooncakes, soup"
+    },
+    {
+      "id": "P08",
+      "name": "饕餮宴楼",
+      "street": "S2",
+      "streetName": "狸食",
+      "price": 2000,
+      "upgrade": 800,
+      "rents": [
+        500,
+        1000,
+        2000
+      ],
+      "sale": 1000,
+      "art": "amber tanuki chef, steaming bamboo baskets, mooncakes, soup"
+    },
+    {
+      "id": "P09",
+      "name": "纸鹤灯铺",
+      "street": "S3",
+      "streetName": "纸月",
+      "price": 1800,
+      "upgrade": 1000,
+      "rents": [
+        300,
+        600,
+        1200
+      ],
+      "sale": 900,
+      "art": "ivory origami cranes, paper lanterns, parasols, paper crafts"
+    },
+    {
+      "id": "P10",
+      "name": "剪月纸坊",
+      "street": "S3",
+      "streetName": "纸月",
+      "price": 2000,
+      "upgrade": 1000,
+      "rents": [
+        400,
+        800,
+        1600
+      ],
+      "sale": 1000,
+      "art": "ivory origami cranes, paper lanterns, parasols, paper crafts"
+    },
+    {
+      "id": "P11",
+      "name": "千面伞阁",
+      "street": "S3",
+      "streetName": "纸月",
+      "price": 2200,
+      "upgrade": 1000,
+      "rents": [
+        500,
+        1000,
+        2000
+      ],
+      "sale": 1100,
+      "art": "ivory origami cranes, paper lanterns, parasols, paper crafts"
+    },
+    {
+      "id": "P12",
+      "name": "流萤灯楼",
+      "street": "S3",
+      "streetName": "纸月",
+      "price": 2400,
+      "upgrade": 1000,
+      "rents": [
+        600,
+        1200,
+        2400
+      ],
+      "sale": 1200,
+      "art": "ivory origami cranes, paper lanterns, parasols, paper crafts"
+    },
+    {
+      "id": "P13",
+      "name": "蛛丝绣坊",
+      "street": "S4",
+      "streetName": "蛛锦",
+      "price": 2200,
+      "upgrade": 1200,
+      "rents": [
+        400,
+        800,
+        1600
+      ],
+      "sale": 1100,
+      "art": "violet spider silk loom, embroidery, rainbow silk bolts"
+    },
+    {
+      "id": "P14",
+      "name": "流霞染铺",
+      "street": "S4",
+      "streetName": "蛛锦",
+      "price": 2400,
+      "upgrade": 1200,
+      "rents": [
+        500,
+        1000,
+        2000
+      ],
+      "sale": 1200,
+      "art": "violet spider silk loom, embroidery, rainbow silk bolts"
+    },
+    {
+      "id": "P15",
+      "name": "织梦锦阁",
+      "street": "S4",
+      "streetName": "蛛锦",
+      "price": 2600,
+      "upgrade": 1200,
+      "rents": [
+        600,
+        1200,
+        2400
+      ],
+      "sale": 1300,
+      "art": "violet spider silk loom, embroidery, rainbow silk bolts"
+    },
+    {
+      "id": "P16",
+      "name": "天衣绸楼",
+      "street": "S4",
+      "streetName": "蛛锦",
+      "price": 2800,
+      "upgrade": 1200,
+      "rents": [
+        700,
+        1400,
+        2800
+      ],
+      "sale": 1400,
+      "art": "violet spider silk loom, embroidery, rainbow silk bolts"
+    },
+    {
+      "id": "P17",
+      "name": "白骨玉坊",
+      "street": "S5",
+      "streetName": "骨玉",
+      "price": 2600,
+      "upgrade": 1400,
+      "rents": [
+        500,
+        1000,
+        2000
+      ],
+      "sale": 1300,
+      "art": "emerald jade rabbits, antiques, ivory bone spirit, precious vessels"
+    },
+    {
+      "id": "P18",
+      "name": "青磷古铺",
+      "street": "S5",
+      "streetName": "骨玉",
+      "price": 2800,
+      "upgrade": 1400,
+      "rents": [
+        600,
+        1200,
+        2400
+      ],
+      "sale": 1400,
+      "art": "emerald jade rabbits, antiques, ivory bone spirit, precious vessels"
+    },
+    {
+      "id": "P19",
+      "name": "琢月珍阁",
+      "street": "S5",
+      "streetName": "骨玉",
+      "price": 3000,
+      "upgrade": 1400,
+      "rents": [
+        700,
+        1400,
+        2800
+      ],
+      "sale": 1500,
+      "art": "emerald jade rabbits, antiques, ivory bone spirit, precious vessels"
+    },
+    {
+      "id": "P20",
+      "name": "玲珑宝楼",
+      "street": "S5",
+      "streetName": "骨玉",
+      "price": 3200,
+      "upgrade": 1400,
+      "rents": [
+        800,
+        1600,
+        3200
+      ],
+      "sale": 1600,
+      "art": "emerald jade rabbits, antiques, ivory bone spirit, precious vessels"
+    },
+    {
+      "id": "P21",
+      "name": "镜中花铺",
+      "street": "S6",
+      "streetName": "镜花",
+      "price": 3000,
+      "upgrade": 1600,
+      "rents": [
+        600,
+        1200,
+        2400
+      ],
+      "sale": 1500,
+      "art": "sapphire enchanted mirrors, opera masks, phantom stage, moon"
+    },
+    {
+      "id": "P22",
+      "name": "幻影戏坊",
+      "street": "S6",
+      "streetName": "镜花",
+      "price": 3200,
+      "upgrade": 1600,
+      "rents": [
+        700,
+        1400,
+        2800
+      ],
+      "sale": 1600,
+      "art": "sapphire enchanted mirrors, opera masks, phantom stage, moon"
+    },
+    {
+      "id": "P23",
+      "name": "浮生梦阁",
+      "street": "S6",
+      "streetName": "镜花",
+      "price": 3400,
+      "upgrade": 1600,
+      "rents": [
+        800,
+        1600,
+        3200
+      ],
+      "sale": 1700,
+      "art": "sapphire enchanted mirrors, opera masks, phantom stage, moon"
+    },
+    {
+      "id": "P24",
+      "name": "蜃景戏楼",
+      "street": "S6",
+      "streetName": "镜花",
+      "price": 3600,
+      "upgrade": 1600,
+      "rents": [
+        900,
+        1800,
+        3600
+      ],
+      "sale": 1800,
+      "art": "sapphire enchanted mirrors, opera masks, phantom stage, moon"
+    },
+    {
+      "id": "P25",
+      "name": "鬼火酒坊",
+      "street": "S7",
+      "streetName": "鬼酿",
+      "price": 3400,
+      "upgrade": 1800,
+      "rents": [
+        700,
+        1400,
+        2800
+      ],
+      "sale": 1700,
+      "art": "crimson friendly ghost tavern, wine jars, plum blossom"
+    },
+    {
+      "id": "P26",
+      "name": "忘忧酿铺",
+      "street": "S7",
+      "streetName": "鬼酿",
+      "price": 3600,
+      "upgrade": 1800,
+      "rents": [
+        800,
+        1600,
+        3200
+      ],
+      "sale": 1800,
+      "art": "crimson friendly ghost tavern, wine jars, plum blossom"
+    },
+    {
+      "id": "P27",
+      "name": "醉魄香阁",
+      "street": "S7",
+      "streetName": "鬼酿",
+      "price": 3800,
+      "upgrade": 1800,
+      "rents": [
+        900,
+        1800,
+        3600
+      ],
+      "sale": 1900,
+      "art": "crimson friendly ghost tavern, wine jars, plum blossom"
+    },
+    {
+      "id": "P28",
+      "name": "浮月宴楼",
+      "street": "S7",
+      "streetName": "鬼酿",
+      "price": 4000,
+      "upgrade": 1800,
+      "rents": [
+        1000,
+        2000,
+        4000
+      ],
+      "sale": 2000,
+      "art": "crimson friendly ghost tavern, wine jars, plum blossom"
+    },
+    {
+      "id": "P29",
+      "name": "龙须渡口",
+      "street": "S8",
+      "streetName": "龙津",
+      "price": 3800,
+      "upgrade": 2000,
+      "rents": [
+        800,
+        1600,
+        3200
+      ],
+      "sale": 1900,
+      "art": "turquoise gentle dragon, canal bridge, pearl lantern, boat"
+    },
+    {
+      "id": "P30",
+      "name": "听潮客栈",
+      "street": "S8",
+      "streetName": "龙津",
+      "price": 4000,
+      "upgrade": 2000,
+      "rents": [
+        900,
+        1800,
+        3600
+      ],
+      "sale": 2000,
+      "art": "turquoise gentle dragon, canal bridge, pearl lantern, boat"
+    },
+    {
+      "id": "P31",
+      "name": "藏珠商馆",
+      "street": "S8",
+      "streetName": "龙津",
+      "price": 4200,
+      "upgrade": 2000,
+      "rents": [
+        1000,
+        2000,
+        4000
+      ],
+      "sale": 2100,
+      "art": "turquoise gentle dragon, canal bridge, pearl lantern, boat"
+    },
+    {
+      "id": "P32",
+      "name": "沧浪舟楼",
+      "street": "S8",
+      "streetName": "龙津",
+      "price": 4400,
+      "upgrade": 2000,
+      "rents": [
+        1100,
+        2200,
+        4400
+      ],
+      "sale": 2200,
+      "art": "turquoise gentle dragon, canal bridge, pearl lantern, boat"
+    }
+  ],
+  "cards": [
+    {
+      "id": "C01",
+      "name": "灯市开张",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "领取1000灵钱。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C02",
+      "name": "狐客回礼",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "领取600灵钱，并抽一张百宝令。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C03",
+      "name": "狸宴满席",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "每持有一处地产领取100灵钱，最低400，最高1200。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C04",
+      "name": "纸鹤送喜",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "抽两张百宝令，保留一张，弃置另一张。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C05",
+      "name": "绣娘相助",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "可立即升级一处符合条件的地产，费用减少400；不升级则领取400。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C06",
+      "name": "玉匠献宝",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "领取1200灵钱。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C07",
+      "name": "镜中奇遇",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "查看奇缘库顶两张，选择一张立即结算，另一张弃置。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C08",
+      "name": "佳酿得赏",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "领取800灵钱。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C09",
+      "name": "龙客包船",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "每涉足一条街领取200灵钱，最低400，最高1400。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C10",
+      "name": "旧契重逢",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "可按原价减200购买一处无主地产；不购买则领取400。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C11",
+      "name": "良邻相赠",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "选择另一玩家，你们各从银行领取600灵钱。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C12",
+      "name": "花灯夺彩",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "掷一骰，领取骰点乘200灵钱。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C13",
+      "name": "巧匠修楼",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "可将自己一处妖铺升为华楼，支付原升级费减400；不升级则领取400。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C14",
+      "name": "小铺翻红",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "每持有一处妖铺领取200灵钱，最高1200；没有妖铺则领取400。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C15",
+      "name": "百业同兴",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "每名玩家各领取400灵钱。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C16",
+      "name": "行商归来",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "正常向前移动至开市门，领取一次2000灵钱，不重复结算该格。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C17",
+      "name": "珍货易手",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "可弃一张百宝令并领取800灵钱；不弃则领取200。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C18",
+      "name": "街坊相扶",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "地产数量最少的玩家各领取600灵钱，包括并列者。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C19",
+      "name": "锦盒藏珍",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "抽三张百宝令，保留两张，弃置另一张。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C20",
+      "name": "夜市嘉奖",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "持有完整街区则领取1600灵钱，否则领取600。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C21",
+      "name": "修缮有方",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "可移除自己一处地产的停业标记并领取400；没有停业地产则领取600。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C22",
+      "name": "商会邀约",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "可支付400灵钱抽两张百宝令；不支付则领取400。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C23",
+      "name": "福星临铺",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "选自己一处营业地产，领取等于其基础租金的灵钱，最高1600；无目标则领取400。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "C24",
+      "name": "灯火相传",
+      "type": "奇缘签",
+      "timing": "立即结算",
+      "effect": "领取600灵钱；现金最少的玩家各额外领取400，包括并列者。",
+      "family": "luck",
+      "copies": 1
+    },
+    {
+      "id": "F01",
+      "name": "夜雾迷津",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "支付400灵钱。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F02",
+      "name": "灯油涨价",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "每持有一处地产支付100灵钱，最高1000。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F03",
+      "name": "骤雨敲檐",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "选择自己一处营业地产停业，至你下回合开始；无目标则无事发生。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F04",
+      "name": "市令巡查",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "支付600灵钱。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F05",
+      "name": "货箱倾覆",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "弃一张自己选择的百宝令；没有手牌则支付300灵钱。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F06",
+      "name": "月蚀临街",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "所有玩家各支付300灵钱。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F07",
+      "name": "狐影问卜",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "掷一骰：1至3支付600灵钱，4至6领取800灵钱；结果明确后可防御。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F08",
+      "name": "潮涨桥封",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "本回合不能普通升级，也不能普通交易；卡牌与街区行动不受影响。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F09",
+      "name": "纸鹤迷航",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "正常向前移动3格，结算落点，经过开市门照常领取收益。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F10",
+      "name": "龙舟顺水",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "正常向前移动6格，结算落点，经过开市门照常领取收益。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F11",
+      "name": "镜路回环",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "直接移至开市门，领取1000灵钱，不结算沿途或再次领取收益。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F12",
+      "name": "灯市迁集",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "直接移至百宝阁并抽一张百宝令；不领取开市收益，不重复结算该格。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F13",
+      "name": "旧物归还",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "领取600灵钱。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F14",
+      "name": "百妖同庆",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "所有玩家各领取500灵钱。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F15",
+      "name": "天降珍珠",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "领取1000灵钱。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F16",
+      "name": "风灯指路",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "抽一张百宝令。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F17",
+      "name": "百宝散落",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "所有玩家各抽一张百宝令。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F18",
+      "name": "巧遇夜巡",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "可支付400灵钱抽两张百宝令；不支付则无事发生。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F19",
+      "name": "修桥摊费",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "每持有一条完整街区支付400灵钱，最高1200。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F20",
+      "name": "灵阁检修",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "每持有一处灵阁支付300灵钱，最高1200。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F21",
+      "name": "商路遇阻",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "本轮余下时间，所有地产只收当前租金的一半，向上取整至100；重复抽到不叠加。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F22",
+      "name": "花雨满城",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "本轮余下时间，正常经过或停在开市门额外领取400灵钱；重复抽到不叠加。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F23",
+      "name": "误入幻境",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "选择弃一张百宝令或支付400灵钱；没有手牌时必须付款。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "F24",
+      "name": "福祸相倚",
+      "type": "夜巡签",
+      "timing": "立即结算",
+      "effect": "选择领取200灵钱，或掷一骰：1至3支付400，4至6领取1200。",
+      "family": "fate",
+      "copies": 1
+    },
+    {
+      "id": "T01",
+      "name": "御风踏月",
+      "type": "百宝令",
+      "timing": "掷骰前",
+      "effect": "本回合不掷骰，自选向前移动1至12格。",
+      "family": "move",
+      "copies": 2
+    },
+    {
+      "id": "T02",
+      "name": "移星换斗",
+      "type": "百宝令",
+      "timing": "掷骰后",
+      "effect": "本次步数增加或减少1至3，最终至少前进1格。",
+      "family": "move",
+      "copies": 2
+    },
+    {
+      "id": "T03",
+      "name": "纸鹤引路",
+      "type": "百宝令",
+      "timing": "掷骰后",
+      "effect": "重掷两枚移动骰，必须采用新结果。",
+      "family": "move",
+      "copies": 2
+    },
+    {
+      "id": "T04",
+      "name": "缩地成寸",
+      "type": "百宝令",
+      "timing": "掷骰前",
+      "effect": "本回合不掷骰，向前移动6格。",
+      "family": "move",
+      "copies": 2
+    },
+    {
+      "id": "T05",
+      "name": "借风远行",
+      "type": "百宝令",
+      "timing": "掷骰前",
+      "effect": "本回合掷三枚移动骰，按总和前进。",
+      "family": "move",
+      "copies": 2
+    },
+    {
+      "id": "T06",
+      "name": "云履归门",
+      "type": "百宝令",
+      "timing": "掷骰前",
+      "effect": "本回合不掷骰，直接移至开市门并领取1000，不结算沿途或再次领取收益。",
+      "family": "move",
+      "copies": 2
+    },
+    {
+      "id": "T07",
+      "name": "匠心筑梦",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "立即升级自己一处符合条件的地产，费用减少400。",
+      "family": "build",
+      "copies": 2
+    },
+    {
+      "id": "T08",
+      "name": "遥契寻铺",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "按原价购买一处无主地产。",
+      "family": "build",
+      "copies": 2
+    },
+    {
+      "id": "T09",
+      "name": "修梁补瓦",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "移除自己一处地产上的停业标记。",
+      "family": "build",
+      "copies": 2
+    },
+    {
+      "id": "T10",
+      "name": "点石生金",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "领取1000灵钱。",
+      "family": "build",
+      "copies": 2
+    },
+    {
+      "id": "T11",
+      "name": "旧物生辉",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "弃置另一张百宝令，领取800灵钱。",
+      "family": "build",
+      "copies": 2
+    },
+    {
+      "id": "T12",
+      "name": "慧眼识珍",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "抽三张百宝令，保留一张，弃置其余。",
+      "family": "build",
+      "copies": 2
+    },
+    {
+      "id": "T13",
+      "name": "一纸封门",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "选择对手一处营业地产使其停业，至你下回合开始。",
+      "family": "attack",
+      "copies": 2
+    },
+    {
+      "id": "T14",
+      "name": "妙手探囊",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "指定一名有手牌的对手；其防御后，随机获得其剩余的一张百宝令。",
+      "family": "attack",
+      "copies": 2
+    },
+    {
+      "id": "T15",
+      "name": "讨彩迎福",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "指定一名对手向你支付400灵钱。",
+      "family": "attack",
+      "copies": 2
+    },
+    {
+      "id": "T16",
+      "name": "百鬼叩门",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "其他玩家按顺时针各向银行支付300灵钱。",
+      "family": "attack",
+      "copies": 2
+    },
+    {
+      "id": "T17",
+      "name": "乱线缠身",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "指定一名对手在下个回合只掷一枚移动骰；替代掷骰的卡仍有效。",
+      "family": "attack",
+      "copies": 2
+    },
+    {
+      "id": "T18",
+      "name": "狸影换宝",
+      "type": "百宝令",
+      "timing": "经营阶段",
+      "effect": "指定一名有手牌的对手；其防御后，随机抽其一张牌，再交给他自己另一张牌。",
+      "family": "attack",
+      "copies": 2
+    },
+    {
+      "id": "T19",
+      "name": "金光护体",
+      "type": "百宝令",
+      "timing": "夜巡签生效前",
+      "effect": "免除本张夜巡签对自己的负面效果；保留正面效果，不影响全桌持续事件。",
+      "family": "guard",
+      "copies": 2
+    },
+    {
+      "id": "T20",
+      "name": "过客留情",
+      "type": "百宝令",
+      "timing": "付租前",
+      "effect": "本次租金减少600灵钱，最低为0。",
+      "family": "guard",
+      "copies": 2
+    },
+    {
+      "id": "T21",
+      "name": "月下借宿",
+      "type": "百宝令",
+      "timing": "付租前",
+      "effect": "本次租金减半，向上取整至100灵钱。",
+      "family": "guard",
+      "copies": 2
+    },
+    {
+      "id": "T22",
+      "name": "镇宅灵符",
+      "type": "百宝令",
+      "timing": "他人道具生效前",
+      "effect": "取消该道具对自己及自己地产的效果，不影响其他玩家。",
+      "family": "guard",
+      "copies": 2
+    },
+    {
+      "id": "T23",
+      "name": "袖里藏珍",
+      "type": "百宝令",
+      "timing": "被偷牌或弃牌前",
+      "effect": "取消一张他人道具或夜巡签对自己的偷牌或强制弃牌；不防手牌超限。",
+      "family": "guard",
+      "copies": 2
+    },
+    {
+      "id": "T24",
+      "name": "商会作保",
+      "type": "百宝令",
+      "timing": "强制付银行前",
+      "effect": "本次向银行的强制付款减少800灵钱，最低为0；不能减免主动消费。",
+      "family": "guard",
+      "copies": 2
+    }
+  ],
+  "roles": [
+    {
+      "id": "R1",
+      "name": "赤尾狐商",
+      "skill": "巧舌竞宝",
+      "effect": "每轮首次竞拍获胜时，银行替你支付200灵钱，最低自付0；出价仍须持有足额现金。",
+      "art": "red fox merchant with flowing tails, embroidered crimson robes, folding fan"
+    },
+    {
+      "id": "R2",
+      "name": "金目狸掌",
+      "skill": "聚沙成金",
+      "effect": "每轮自己回合开始时，若现金不超过2000灵钱，领取400灵钱。",
+      "art": "amiable golden-eyed tanuki merchant, amber brocade robe and abacus"
+    },
+    {
+      "id": "R3",
+      "name": "折月纸灵",
+      "skill": "纸鹤择宝",
+      "effect": "每轮一次，在百宝阁或百宝摊抽牌时可改为抽二留一；不与纸月街能力叠加。",
+      "art": "living paper spirit, ivory folded robes, crescent hairpiece, origami cranes"
+    },
+    {
+      "id": "R4",
+      "name": "织霞蛛娘",
+      "skill": "巧织华楼",
+      "effect": "每轮首次普通升级少付200灵钱，最低为0；可与狐香街能力叠加。",
+      "art": "elegant adult spider spirit silk merchant, six arms, violet robes, silk threads"
+    },
+    {
+      "id": "R5",
+      "name": "照影镜姬",
+      "skill": "镜步生莲",
+      "effect": "每轮一次，正常掷骰后可将步数加1或减1，最低为1；可与镜花街能力叠加。",
+      "art": "elegant adult mirror spirit, sapphire Chinese dress, moon mirror, iridescent ribbons"
+    },
+    {
+      "id": "R6",
+      "name": "听潮龙客",
+      "skill": "潮声护财",
+      "effect": "每轮一次，付租时可少付300灵钱，最低为0；此技能视为一次防御。",
+      "art": "gentle eastern dragon humanoid merchant, small antler horns, turquoise coat, pearl staff"
+    }
+  ],
+  "banknotes": [
+    {
+      "id": "N100",
+      "amount": 100,
+      "name": "百灯初照",
+      "color": "#69846b",
+      "motif": "a hundred small lanterns and a paper crane",
+      "copies": 24
+    },
+    {
+      "id": "N200",
+      "amount": 200,
+      "name": "双鲤衔珠",
+      "color": "#378e9c",
+      "motif": "two koi fish circling a pearl",
+      "copies": 24
+    },
+    {
+      "id": "N500",
+      "amount": 500,
+      "name": "五福临门",
+      "color": "#b47742",
+      "motif": "five auspicious little animal spirits around a coin",
+      "copies": 24
+    },
+    {
+      "id": "N1000",
+      "amount": 1000,
+      "name": "千萤入梦",
+      "color": "#7666aa",
+      "motif": "a thousand glowing fireflies over a mirror pond",
+      "copies": 24
+    },
+    {
+      "id": "N2000",
+      "amount": 2000,
+      "name": "双龙护市",
+      "color": "#396b9b",
+      "motif": "two gentle eastern dragons protecting a market gate",
+      "copies": 18
+    },
+    {
+      "id": "N5000",
+      "amount": 5000,
+      "name": "五岳通商",
+      "color": "#b14c54",
+      "motif": "five mystical mountains and a trading boat",
+      "copies": 12
+    },
+    {
+      "id": "N10000",
+      "amount": 10000,
+      "name": "万妖来朝",
+      "color": "#a98a3e",
+      "motif": "a grand gathering of friendly yokai under a golden moon",
+      "copies": 8
+    }
+  ],
+  "specials": {
+    "开市门": "经过或停留领取2000灵钱；开局不领取。",
+    "巡夜司": "向银行支付600灵钱。",
+    "歇脚亭": "领取400灵钱。",
+    "百宝阁": "抽一张百宝令。",
+    "奇缘桥": "抽一张奇缘签，立即结算。",
+    "夜巡台": "抽一张夜巡签，立即结算。",
+    "百宝摊": "抽一张百宝令。",
+    "竞宝台": "可指定一处无主地产公开竞拍；本回合已有竞拍则不再触发。"
+  },
+  "map": [
+    {
+      "index": 0,
+      "name": "开市门",
+      "id": null
+    },
+    {
+      "index": 1,
+      "name": "狐尾香坊",
+      "id": "P01"
+    },
+    {
+      "index": 2,
+      "name": "奇缘桥",
+      "id": null
+    },
+    {
+      "index": 3,
+      "name": "月下脂铺",
+      "id": "P02"
+    },
+    {
+      "index": 4,
+      "name": "凝露香阁",
+      "id": "P03"
+    },
+    {
+      "index": 5,
+      "name": "醉梦妆楼",
+      "id": "P04"
+    },
+    {
+      "index": 6,
+      "name": "百宝摊",
+      "id": null
+    },
+    {
+      "index": 7,
+      "name": "狸火食摊",
+      "id": "P05"
+    },
+    {
+      "index": 8,
+      "name": "百味汤铺",
+      "id": "P06"
+    },
+    {
+      "index": 9,
+      "name": "酥月饼坊",
+      "id": "P07"
+    },
+    {
+      "index": 10,
+      "name": "夜巡台",
+      "id": null
+    },
+    {
+      "index": 11,
+      "name": "饕餮宴楼",
+      "id": "P08"
+    },
+    {
+      "index": 12,
+      "name": "巡夜司",
+      "id": null
+    },
+    {
+      "index": 13,
+      "name": "纸鹤灯铺",
+      "id": "P09"
+    },
+    {
+      "index": 14,
+      "name": "竞宝台",
+      "id": null
+    },
+    {
+      "index": 15,
+      "name": "剪月纸坊",
+      "id": "P10"
+    },
+    {
+      "index": 16,
+      "name": "千面伞阁",
+      "id": "P11"
+    },
+    {
+      "index": 17,
+      "name": "流萤灯楼",
+      "id": "P12"
+    },
+    {
+      "index": 18,
+      "name": "奇缘桥",
+      "id": null
+    },
+    {
+      "index": 19,
+      "name": "蛛丝绣坊",
+      "id": "P13"
+    },
+    {
+      "index": 20,
+      "name": "流霞染铺",
+      "id": "P14"
+    },
+    {
+      "index": 21,
+      "name": "织梦锦阁",
+      "id": "P15"
+    },
+    {
+      "index": 22,
+      "name": "百宝摊",
+      "id": null
+    },
+    {
+      "index": 23,
+      "name": "天衣绸楼",
+      "id": "P16"
+    },
+    {
+      "index": 24,
+      "name": "歇脚亭",
+      "id": null
+    },
+    {
+      "index": 25,
+      "name": "白骨玉坊",
+      "id": "P17"
+    },
+    {
+      "index": 26,
+      "name": "夜巡台",
+      "id": null
+    },
+    {
+      "index": 27,
+      "name": "青磷古铺",
+      "id": "P18"
+    },
+    {
+      "index": 28,
+      "name": "琢月珍阁",
+      "id": "P19"
+    },
+    {
+      "index": 29,
+      "name": "玲珑宝楼",
+      "id": "P20"
+    },
+    {
+      "index": 30,
+      "name": "竞宝台",
+      "id": null
+    },
+    {
+      "index": 31,
+      "name": "镜中花铺",
+      "id": "P21"
+    },
+    {
+      "index": 32,
+      "name": "幻影戏坊",
+      "id": "P22"
+    },
+    {
+      "index": 33,
+      "name": "浮生梦阁",
+      "id": "P23"
+    },
+    {
+      "index": 34,
+      "name": "奇缘桥",
+      "id": null
+    },
+    {
+      "index": 35,
+      "name": "蜃景戏楼",
+      "id": "P24"
+    },
+    {
+      "index": 36,
+      "name": "百宝阁",
+      "id": null
+    },
+    {
+      "index": 37,
+      "name": "鬼火酒坊",
+      "id": "P25"
+    },
+    {
+      "index": 38,
+      "name": "百宝摊",
+      "id": null
+    },
+    {
+      "index": 39,
+      "name": "忘忧酿铺",
+      "id": "P26"
+    },
+    {
+      "index": 40,
+      "name": "醉魄香阁",
+      "id": "P27"
+    },
+    {
+      "index": 41,
+      "name": "浮月宴楼",
+      "id": "P28"
+    },
+    {
+      "index": 42,
+      "name": "夜巡台",
+      "id": null
+    },
+    {
+      "index": 43,
+      "name": "龙须渡口",
+      "id": "P29"
+    },
+    {
+      "index": 44,
+      "name": "听潮客栈",
+      "id": "P30"
+    },
+    {
+      "index": 45,
+      "name": "藏珠商馆",
+      "id": "P31"
+    },
+    {
+      "index": 46,
+      "name": "竞宝台",
+      "id": null
+    },
+    {
+      "index": 47,
+      "name": "沧浪舟楼",
+      "id": "P32"
+    }
+  ],
+  "rentBonuses": [
+    0,
+    100,
+    200,
+    400
+  ],
+  "completeBonus": 2000
+}

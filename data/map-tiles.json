@@ -1,0 +1,414 @@
+[
+  {
+    "id": "map_tile_01",
+    "kind": "map-tile",
+    "name": "地图分区1",
+    "face": "front",
+    "col": 0,
+    "row": 0,
+    "cells": [
+      {
+        "index": 0,
+        "name": "开市门",
+        "id": null
+      },
+      {
+        "index": 1,
+        "name": "狐尾香坊",
+        "id": "P01"
+      },
+      {
+        "index": 2,
+        "name": "奇缘桥",
+        "id": null
+      },
+      {
+        "index": 3,
+        "name": "月下脂铺",
+        "id": "P02"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. The path bends from the BOTTOM LEFT edge toward the TOP RIGHT edge. EXACTLY FOUR track cells. Cell 0 at lower-left immediately below cell 1; cells 1, 2, 3 form a left-to-right row along the top edge. Connect 0 upward to 1 then right to 2 then right to 3. Other area is decorative market artwork. Do not create a fifth cell. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"0\" and EXACT name \"开市门\", each printed ONCE. Local cell 1 must contain EXACT number \"1\" and EXACT name \"狐尾香坊\", each printed ONCE. Local cell 2 must contain EXACT number \"2\" and EXACT name \"奇缘桥\", each printed ONCE. Local cell 3 must contain EXACT number \"3\" and EXACT name \"月下脂铺\", each printed ONCE. Draw miniature illustrations matching these four places: 开市门、狐尾香坊、奇缘桥、月下脂铺. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_02",
+    "kind": "map-tile",
+    "name": "地图分区2",
+    "face": "front",
+    "col": 1,
+    "row": 0,
+    "cells": [
+      {
+        "index": 4,
+        "name": "凝露香阁",
+        "id": "P03"
+      },
+      {
+        "index": 5,
+        "name": "醉梦妆楼",
+        "id": "P04"
+      },
+      {
+        "index": 6,
+        "name": "百宝摊",
+        "id": null
+      },
+      {
+        "index": 7,
+        "name": "狸火食摊",
+        "id": "P05"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. EXACTLY FOUR equal-size track cells in a LEFT-TO-RIGHT row along the TOP edge, joined by clockwise arrows. Lower area is decorative street panorama. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"4\" and EXACT name \"凝露香阁\", each printed ONCE. Local cell 1 must contain EXACT number \"5\" and EXACT name \"醉梦妆楼\", each printed ONCE. Local cell 2 must contain EXACT number \"6\" and EXACT name \"百宝摊\", each printed ONCE. Local cell 3 must contain EXACT number \"7\" and EXACT name \"狸火食摊\", each printed ONCE. Draw miniature illustrations matching these four places: 凝露香阁、醉梦妆楼、百宝摊、狸火食摊. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_03",
+    "kind": "map-tile",
+    "name": "地图分区3",
+    "face": "front",
+    "col": 2,
+    "row": 0,
+    "cells": [
+      {
+        "index": 8,
+        "name": "百味汤铺",
+        "id": "P06"
+      },
+      {
+        "index": 9,
+        "name": "酥月饼坊",
+        "id": "P07"
+      },
+      {
+        "index": 10,
+        "name": "夜巡台",
+        "id": null
+      },
+      {
+        "index": 11,
+        "name": "饕餮宴楼",
+        "id": "P08"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. EXACTLY FOUR equal-size track cells in a LEFT-TO-RIGHT row along the TOP edge, joined by clockwise arrows. Lower area is decorative street panorama. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"8\" and EXACT name \"百味汤铺\", each printed ONCE. Local cell 1 must contain EXACT number \"9\" and EXACT name \"酥月饼坊\", each printed ONCE. Local cell 2 must contain EXACT number \"10\" and EXACT name \"夜巡台\", each printed ONCE. Local cell 3 must contain EXACT number \"11\" and EXACT name \"饕餮宴楼\", each printed ONCE. Draw miniature illustrations matching these four places: 百味汤铺、酥月饼坊、夜巡台、饕餮宴楼. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_04",
+    "kind": "map-tile",
+    "name": "地图分区4",
+    "face": "front",
+    "col": 3,
+    "row": 0,
+    "cells": [
+      {
+        "index": 12,
+        "name": "巡夜司",
+        "id": null
+      },
+      {
+        "index": 13,
+        "name": "纸鹤灯铺",
+        "id": "P09"
+      },
+      {
+        "index": 14,
+        "name": "竞宝台",
+        "id": null
+      },
+      {
+        "index": 15,
+        "name": "剪月纸坊",
+        "id": "P10"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. The path bends from the TOP LEFT edge toward the BOTTOM RIGHT edge. EXACTLY FOUR track cells: cells 0, 1, 2 in a left-to-right row along the top edge, cell 3 immediately below cell 2 at right. Connect 0 to 1 to 2 then downward to 3. Other area decorative. No fifth cell. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"12\" and EXACT name \"巡夜司\", each printed ONCE. Local cell 1 must contain EXACT number \"13\" and EXACT name \"纸鹤灯铺\", each printed ONCE. Local cell 2 must contain EXACT number \"14\" and EXACT name \"竞宝台\", each printed ONCE. Local cell 3 must contain EXACT number \"15\" and EXACT name \"剪月纸坊\", each printed ONCE. Draw miniature illustrations matching these four places: 巡夜司、纸鹤灯铺、竞宝台、剪月纸坊. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_05",
+    "kind": "map-tile",
+    "name": "地图分区5",
+    "face": "front",
+    "col": 3,
+    "row": 1,
+    "cells": [
+      {
+        "index": 16,
+        "name": "千面伞阁",
+        "id": "P11"
+      },
+      {
+        "index": 17,
+        "name": "流萤灯楼",
+        "id": "P12"
+      },
+      {
+        "index": 18,
+        "name": "奇缘桥",
+        "id": null
+      },
+      {
+        "index": 19,
+        "name": "蛛丝绣坊",
+        "id": "P13"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. EXACTLY FOUR equal-size track cells in a TOP-TO-BOTTOM column along the RIGHT edge, joined by clockwise arrows. Left area is decorative street panorama. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"16\" and EXACT name \"千面伞阁\", each printed ONCE. Local cell 1 must contain EXACT number \"17\" and EXACT name \"流萤灯楼\", each printed ONCE. Local cell 2 must contain EXACT number \"18\" and EXACT name \"奇缘桥\", each printed ONCE. Local cell 3 must contain EXACT number \"19\" and EXACT name \"蛛丝绣坊\", each printed ONCE. Draw miniature illustrations matching these four places: 千面伞阁、流萤灯楼、奇缘桥、蛛丝绣坊. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_06",
+    "kind": "map-tile",
+    "name": "地图分区6",
+    "face": "front",
+    "col": 3,
+    "row": 2,
+    "cells": [
+      {
+        "index": 20,
+        "name": "流霞染铺",
+        "id": "P14"
+      },
+      {
+        "index": 21,
+        "name": "织梦锦阁",
+        "id": "P15"
+      },
+      {
+        "index": 22,
+        "name": "百宝摊",
+        "id": null
+      },
+      {
+        "index": 23,
+        "name": "天衣绸楼",
+        "id": "P16"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. EXACTLY FOUR equal-size track cells in a TOP-TO-BOTTOM column along the RIGHT edge, joined by clockwise arrows. Left area is decorative street panorama. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"20\" and EXACT name \"流霞染铺\", each printed ONCE. Local cell 1 must contain EXACT number \"21\" and EXACT name \"织梦锦阁\", each printed ONCE. Local cell 2 must contain EXACT number \"22\" and EXACT name \"百宝摊\", each printed ONCE. Local cell 3 must contain EXACT number \"23\" and EXACT name \"天衣绸楼\", each printed ONCE. Draw miniature illustrations matching these four places: 流霞染铺、织梦锦阁、百宝摊、天衣绸楼. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_07",
+    "kind": "map-tile",
+    "name": "地图分区7",
+    "face": "front",
+    "col": 3,
+    "row": 3,
+    "cells": [
+      {
+        "index": 24,
+        "name": "歇脚亭",
+        "id": null
+      },
+      {
+        "index": 25,
+        "name": "白骨玉坊",
+        "id": "P17"
+      },
+      {
+        "index": 26,
+        "name": "夜巡台",
+        "id": null
+      },
+      {
+        "index": 27,
+        "name": "青磷古铺",
+        "id": "P18"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. The path bends from TOP RIGHT edge toward BOTTOM LEFT edge. EXACTLY FOUR track cells: cell 0 upper-right immediately above cell 1; cells 1, 2, 3 run right-to-left along bottom edge. Connect downward then left. Other area decorative. No fifth cell. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"24\" and EXACT name \"歇脚亭\", each printed ONCE. Local cell 1 must contain EXACT number \"25\" and EXACT name \"白骨玉坊\", each printed ONCE. Local cell 2 must contain EXACT number \"26\" and EXACT name \"夜巡台\", each printed ONCE. Local cell 3 must contain EXACT number \"27\" and EXACT name \"青磷古铺\", each printed ONCE. Draw miniature illustrations matching these four places: 歇脚亭、白骨玉坊、夜巡台、青磷古铺. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_08",
+    "kind": "map-tile",
+    "name": "地图分区8",
+    "face": "front",
+    "col": 2,
+    "row": 3,
+    "cells": [
+      {
+        "index": 28,
+        "name": "琢月珍阁",
+        "id": "P19"
+      },
+      {
+        "index": 29,
+        "name": "玲珑宝楼",
+        "id": "P20"
+      },
+      {
+        "index": 30,
+        "name": "竞宝台",
+        "id": null
+      },
+      {
+        "index": 31,
+        "name": "镜中花铺",
+        "id": "P21"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. EXACTLY FOUR equal-size track cells in a RIGHT-TO-LEFT row along the BOTTOM edge, joined by clockwise arrows. Upper area is decorative street panorama. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"28\" and EXACT name \"琢月珍阁\", each printed ONCE. Local cell 1 must contain EXACT number \"29\" and EXACT name \"玲珑宝楼\", each printed ONCE. Local cell 2 must contain EXACT number \"30\" and EXACT name \"竞宝台\", each printed ONCE. Local cell 3 must contain EXACT number \"31\" and EXACT name \"镜中花铺\", each printed ONCE. Draw miniature illustrations matching these four places: 琢月珍阁、玲珑宝楼、竞宝台、镜中花铺. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_09",
+    "kind": "map-tile",
+    "name": "地图分区9",
+    "face": "front",
+    "col": 1,
+    "row": 3,
+    "cells": [
+      {
+        "index": 32,
+        "name": "幻影戏坊",
+        "id": "P22"
+      },
+      {
+        "index": 33,
+        "name": "浮生梦阁",
+        "id": "P23"
+      },
+      {
+        "index": 34,
+        "name": "奇缘桥",
+        "id": null
+      },
+      {
+        "index": 35,
+        "name": "蜃景戏楼",
+        "id": "P24"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. EXACTLY FOUR equal-size track cells in a RIGHT-TO-LEFT row along the BOTTOM edge, joined by clockwise arrows. Upper area is decorative street panorama. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"32\" and EXACT name \"幻影戏坊\", each printed ONCE. Local cell 1 must contain EXACT number \"33\" and EXACT name \"浮生梦阁\", each printed ONCE. Local cell 2 must contain EXACT number \"34\" and EXACT name \"奇缘桥\", each printed ONCE. Local cell 3 must contain EXACT number \"35\" and EXACT name \"蜃景戏楼\", each printed ONCE. Draw miniature illustrations matching these four places: 幻影戏坊、浮生梦阁、奇缘桥、蜃景戏楼. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_10",
+    "kind": "map-tile",
+    "name": "地图分区10",
+    "face": "front",
+    "col": 0,
+    "row": 3,
+    "cells": [
+      {
+        "index": 36,
+        "name": "百宝阁",
+        "id": null
+      },
+      {
+        "index": 37,
+        "name": "鬼火酒坊",
+        "id": "P25"
+      },
+      {
+        "index": 38,
+        "name": "百宝摊",
+        "id": null
+      },
+      {
+        "index": 39,
+        "name": "忘忧酿铺",
+        "id": "P26"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. The path bends from BOTTOM RIGHT edge toward TOP LEFT edge. EXACTLY FOUR track cells: cells 0, 1, 2 run right-to-left along bottom edge; cell 3 immediately above cell 2 at left. Connect left then upward. Other area decorative. No fifth cell. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"36\" and EXACT name \"百宝阁\", each printed ONCE. Local cell 1 must contain EXACT number \"37\" and EXACT name \"鬼火酒坊\", each printed ONCE. Local cell 2 must contain EXACT number \"38\" and EXACT name \"百宝摊\", each printed ONCE. Local cell 3 must contain EXACT number \"39\" and EXACT name \"忘忧酿铺\", each printed ONCE. Draw miniature illustrations matching these four places: 百宝阁、鬼火酒坊、百宝摊、忘忧酿铺. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_11",
+    "kind": "map-tile",
+    "name": "地图分区11",
+    "face": "front",
+    "col": 0,
+    "row": 2,
+    "cells": [
+      {
+        "index": 40,
+        "name": "醉魄香阁",
+        "id": "P27"
+      },
+      {
+        "index": 41,
+        "name": "浮月宴楼",
+        "id": "P28"
+      },
+      {
+        "index": 42,
+        "name": "夜巡台",
+        "id": null
+      },
+      {
+        "index": 43,
+        "name": "龙须渡口",
+        "id": "P29"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. EXACTLY FOUR equal-size track cells in a BOTTOM-TO-TOP column along the LEFT edge, joined by clockwise arrows. Right area is decorative street panorama. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"40\" and EXACT name \"醉魄香阁\", each printed ONCE. Local cell 1 must contain EXACT number \"41\" and EXACT name \"浮月宴楼\", each printed ONCE. Local cell 2 must contain EXACT number \"42\" and EXACT name \"夜巡台\", each printed ONCE. Local cell 3 must contain EXACT number \"43\" and EXACT name \"龙须渡口\", each printed ONCE. Draw miniature illustrations matching these four places: 醉魄香阁、浮月宴楼、夜巡台、龙须渡口. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_12",
+    "kind": "map-tile",
+    "name": "地图分区12",
+    "face": "front",
+    "col": 0,
+    "row": 1,
+    "cells": [
+      {
+        "index": 44,
+        "name": "听潮客栈",
+        "id": "P30"
+      },
+      {
+        "index": 45,
+        "name": "藏珠商馆",
+        "id": "P31"
+      },
+      {
+        "index": 46,
+        "name": "竞宝台",
+        "id": null
+      },
+      {
+        "index": 47,
+        "name": "沧浪舟楼",
+        "id": "P32"
+      }
+    ],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. EXACTLY FOUR equal-size track cells in a BOTTOM-TO-TOP column along the LEFT edge, joined by clockwise arrows. Right area is decorative street panorama. The words \"cell\" and local cell indices are instructions, NOT text to print. Local cell 0 must contain EXACT number \"44\" and EXACT name \"听潮客栈\", each printed ONCE. Local cell 1 must contain EXACT number \"45\" and EXACT name \"藏珠商馆\", each printed ONCE. Local cell 2 must contain EXACT number \"46\" and EXACT name \"竞宝台\", each printed ONCE. Local cell 3 must contain EXACT number \"47\" and EXACT name \"沧浪舟楼\", each printed ONCE. Draw miniature illustrations matching these four places: 听潮客栈、藏珠商馆、竞宝台、沧浪舟楼. Only the supplied FOUR global indices and FOUR Chinese names may appear as text. No other numbers, labels, titles, captions or extra cells. Make cells distinct and numbered in the exact traversal order. Use midnight-blue and warm-gold connecting streets to align with neighboring tiles. Large legible Chinese text, decorative corners must not look like additional track cells."
+  },
+  {
+    "id": "map_tile_13",
+    "kind": "map-tile",
+    "name": "百妖夜市",
+    "face": "front",
+    "col": 1,
+    "row": 1,
+    "cells": [],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. Complete decorative inner map tile. A magnificent moonlit fox perfume district and tanuki food district overlooking a small canal, lanterns and friendly spirits. One large beautifully readable golden title 百妖夜市. No track cells. All paths lead naturally toward the center of a large fantasy market. Soft scenic borders, thin gold line at outer edge. The only text is \"百妖夜市\"."
+  },
+  {
+    "id": "map_tile_14",
+    "kind": "map-tile",
+    "name": "月圆开市",
+    "face": "front",
+    "col": 2,
+    "row": 1,
+    "cells": [],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. Complete decorative inner map tile. A luminous full moon above an ivory paper lantern district and violet silk district, arched canal bridge, paper cranes. One clear small poetic title 月圆开市. No track cells. All paths lead naturally toward the center of a large fantasy market. Soft scenic borders, thin gold line at outer edge. The only text is \"月圆开市\"."
+  },
+  {
+    "id": "map_tile_15",
+    "kind": "map-tile",
+    "name": "百妖争金",
+    "face": "front",
+    "col": 1,
+    "row": 2,
+    "cells": [],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. Complete decorative inner map tile. An emerald jade curiosity street and sapphire mirror theatre around a reflecting pond, charming shoppers. One clear small poetic title 百妖争金. No track cells. All paths lead naturally toward the center of a large fantasy market. Soft scenic borders, thin gold line at outer edge. The only text is \"百妖争金\"."
+  },
+  {
+    "id": "map_tile_16",
+    "kind": "map-tile",
+    "name": "灯火长明",
+    "face": "front",
+    "col": 2,
+    "row": 2,
+    "cells": [],
+    "prompt": "One COMPLETE FINISHED SQUARE TILE of an illustrated Chinese fantasy board game called 百妖夜市. Square 1:1, highest native resolution available, 2048x2048 or greater if supported. This tile will be joined edge-to-edge to other whole finished tiles. All Chinese names and numbers must be generated INSIDE this image; NO later text will be added. Exquisite refined watercolor and gouache storybook illustration, midnight indigo, warm gold lanterns, friendly yokai spirits, rich fine architecture, ornate thin gold outer frame. Flat overhead game component, not a photographed object. No perspective distortion of printed cells, no white outer margins, no shadows, no English, no gibberish. All printed Chinese must match supplied text exactly. Use generous clear ivory areas behind text and very readable dark Chinese characters. Complete decorative inner map tile. Crimson wine taverns and turquoise dragon canal inns, magical trading boats and gold lantern reflections. One clear small poetic title 灯火长明. No track cells. All paths lead naturally toward the center of a large fantasy market. Soft scenic borders, thin gold line at outer edge. The only text is \"灯火长明\"."
+  }
+]
